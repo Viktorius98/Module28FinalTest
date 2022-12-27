@@ -72,8 +72,8 @@ def test_link_phone(driver):
 
 def test_auth_with_correct_data(driver):
     page = AuthPage(driver)
-    page.enter_email('bigden76@mail.ru')
-    page.enter_pass('Bigden76')
+    page.enter_email('viksin376@yandex.ru')
+    page.enter_pass('Ghjrnjk76')
     page.btn_click()
     time.sleep(3)
     page.driver.save_screenshot('User_page.png')
